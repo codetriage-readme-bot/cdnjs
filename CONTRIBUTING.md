@@ -15,6 +15,8 @@
 
  * b. [request a new library](#b-request-a-new-library)
 
+ * c. [triage issues](#c-triage-issues-)
+
  B. [pull request](#b-pull-request)
 
  * a. [sparse checkout and shallow clone](#a-sparse-checkout-and-shallow-clone)
@@ -46,6 +48,10 @@
 * For the new library request issue, please make sure it's not a *personal* project, we have a basic requirement for the popularity, like **200** stars on GitHub or **800** downloads/month on npm registry.
 
 * The new library must have at least one officially public accessible repository and open source license.
+
+### c. triage issues [![Open Source Helpers](https://www.codetriage.com/cdnjs/cdnjs/badges/users.svg)](https://www.codetriage.com/cdnjs/cdnjs)
+
+You can also triage issues which may include asking for vital information, or correcting malformed conventions. If you would like to start triaging issues, one easy way to get started is to [subscribe to cdnjs on CodeTriage](https://www.codetriage.com/cdnjs/cdnjs).
 
 ## B. pull request
 
@@ -105,7 +111,7 @@
 2. Please don't forget to update the version info to the latest stable version in its `package.json`.
 
 3. Make sure the main file, as known as the `filename` property in `package.json` is correct, different versions may use different filename.
- 
+
 4. For those libs can use auto-update, you should add [auto-update config](https://github.com/cdnjs/cdnjs/blob/master/documents/autoupdate.md) for it, but as the first pull request to add a lib, you should still add its real files, or you won't pass the test.
 
 ### d. adding a new library with its assets
